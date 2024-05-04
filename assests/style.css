@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.heading{
+    background-color: A9CEF4;
+    text-align: center;
+}
+
+.h1-title{
+    padding: 2rem 0;
+    font-weight: 900;
+}
+
+.container{
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.game-box{
+    display: flex;
+    /* background-color: #36494E; */
+    height: 60vmin;
+    width: 60vmin;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    /* border: 2px solid #36494E; */
+    text-align: center;
+    background-color: #7EA0B7;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 0 20px rgb(199, 195, 195);
+    font-size: 8rem;
+    
+}
+
+.reset-btn{
+    padding: 1rem 1.5rem;
+    border-radius: 1.5rem;
+    border: none;
+    background-color: darkblue;
+    color: white;
+    font-size: large;
+    margin: 1rem auto;
+    cursor: pointer;
+}
+
+.O-player{
+    background-color: rgb(190, 64, 240);
+}
+
+.X-player{
+    background-color: yellow;
+}
+
+.box{
+    transition: background-color 0.2s ease-in;
+}
+
+.hide{
+    display: none;
+}
+
+#msg{
+    font-size: 3.5rem;
+    padding: 1rem;
+}
+
+#new-btn{
+    padding: 1rem 1.5rem;
+    border-radius: .5rem;
+    border: none;
+    background-color: rgb(5, 139, 0);
+    color: white;
+    font-size: large;
+    margin: 1rem auto;
+    cursor: pointer;
+}
