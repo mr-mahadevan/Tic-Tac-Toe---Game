@@ -39,7 +39,7 @@ To set up the Tic Tac Toe Game, follow these steps:
 
       or
 3. **Use the below link:**
-    - 
+    - [Play Game in browser](https://mr-mahadevan.github.io/Tic-Tac-Toe---Game/)
 
 ## Usage
 
